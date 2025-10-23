@@ -17,7 +17,7 @@
                         </p>
                         <div class="hero-actions d-flex justify-content-center flex-wrap gap-3 animate-fade-in-delay-2">
                         <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary btn-lg me-3">Konsultasi</a>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScsNcV7leO3CUikVQYQ9iZpkbhNnrmcx75rgPHXoM2CuEwHWw/viewform?usp=header" class="btn btn-outline-secondary btn-lg">Formulir Coaching</a>
+                        <NuxtLink to="https://docs.google.com/forms/d/e/1FAIpQLScsNcV7leO3CUikVQYQ9iZpkbhNnrmcx75rgPHXoM2CuEwHWw/viewform?usp=header" class="btn btn-outline-secondary btn-lg">Formulir Coaching</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -543,7 +543,7 @@
                 <div class="col-lg-8">
                     <h2 class="cta-title">Siap Memulai Perjalanan Healing Anda?</h2>
                     <p class="cta-text">Jadwalkan sesi konsultasi gratis 30 menit untuk membahas kebutuhan spesifik Anda dan menemukan pendekatan terbaik menuju keseimbangan diri.</p>
-                    <a href="contact.html" class="btn btn-primary btn-lg">Konsultasi Sekarang</a>
+                    <NuxtLink to="contact.html" class="btn btn-primary btn-lg">Konsultasi Sekarang</NuxtLink>
                 </div>
             </div>
         </div>
